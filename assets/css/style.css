@@ -1,0 +1,17 @@
+/* .container { width: 90% !important; } */
+
+.nav-item.active { font-weight: bold;background: #009688;border-radius: .5em; }
+.nav-item { color: #eceff1;transition: 1s ease-in-out all;padding: 0 1em;margin: .5em; }
+.nav-item:hover { color: #eceff1;background: #26a69a;border-radius: .5em; }
+
+/* .card { border-radius: 1em;overflow: hidden; } */
+nav{
+    background-color: #06113C;
+}
+.card-wisata img{
+    height:240px;
+}
+footer{
+    background-color: black !important;
+    color: #b4b9c2;
+}
