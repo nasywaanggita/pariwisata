@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Apr 22, 2022 at 09:42 PM
--- Server version: 5.7.34-0ubuntu0.18.04.1
--- PHP Version: 7.4.20
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 06 Des 2023 pada 10.44
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,17 +24,17 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `daftarharga`
+-- Struktur dari tabel `daftarharga`
 --
 
 CREATE TABLE `daftarharga` (
   `iddh` int(10) NOT NULL,
   `nama` varchar(30) NOT NULL,
   `harga` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `daftarharga`
+-- Dumping data untuk tabel `daftarharga`
 --
 
 INSERT INTO `daftarharga` (`iddh`, `nama`, `harga`) VALUES
@@ -45,7 +45,7 @@ INSERT INTO `daftarharga` (`iddh`, `nama`, `harga`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pengguna`
+-- Struktur dari tabel `pengguna`
 --
 
 CREATE TABLE `pengguna` (
@@ -58,19 +58,19 @@ CREATE TABLE `pengguna` (
   `Jml_p` varchar(30) NOT NULL,
   `Jml_ank` varchar(30) NOT NULL,
   `total` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data for table `pengguna`
+-- Dumping data untuk tabel `pengguna`
 --
 
 INSERT INTO `pengguna` (`idp`, `nama_p`, `no_identitas`, `no_hp`, `idnama`, `tanggal`, `Jml_p`, `Jml_ank`, `total`) VALUES
-(1, 'Iffan Ahmad', '3301032345400002', '081543676993', '3', '2022-04-23', '3', '1', '');
+(1, 'Nasywa Anggita', '3301032345400002', '081543676993', '3', '2022-04-23', '3', '1', '');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `transaksi`
+-- Struktur dari tabel `transaksi`
 --
 
 CREATE TABLE `transaksi` (
@@ -84,65 +84,61 @@ CREATE TABLE `transaksi` (
   `nama_wisata` varchar(100) NOT NULL,
   `total_harga` bigint(20) NOT NULL,
   `tanggal_pesan` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data for table `transaksi`
+-- Dumping data untuk tabel `transaksi`
 --
 
 INSERT INTO `transaksi` (`id`, `nama`, `no_identitas`, `no_hp`, `tanggal`, `jml`, `jml_anak`, `nama_wisata`, `total_harga`, `tanggal_pesan`) VALUES
-(18, 'Agung UF', 1234123412312345, '123124125', '2022-04-23', 12, 2, 'Aguahsds', 123124125, '2022-04-22'),
-(19, 'Agum', 1234123412312545, '123124125', '2022-04-23', 12, 2, 'Akua', 123124125, '2022-05-22'),
-(20, 'Agi F', 1234123412312655, '123124125', '2022-04-23', 12, 2, 'Aguahsds', 123124125, '2022-05-22'),
-(21, 'Asai F', 1234123412312655, '123124125', '2022-04-23', 12, 2, 'Aguahsds', 123124125, '2022-01-22'),
-(22, 'AHmas', 3234123412312655, '123124125', '2022-04-23', 12, 2, 'Aguahsds', 123124125, '2022-02-22'),
-(23, 'Deni', 1234123412342655, '123124125', '2022-04-23', 12, 2, 'Aguahsds', 123124125, '2022-03-22'),
-(24, 'Agi F', 1234123412312655, '123124125', '2022-04-23', 12, 2, 'Aguahsds', 123124125, '2022-06-22'),
-(27, 'agung kusaeri', 1231234512341234, '09124124', '2022-04-26', 123, 12, 'Museum Soesilo Soedarman', 645000, '2022-04-22');
+(29, 'Khairina Dwi Aristyanti', 1111111111111111, '089999922718', '2023-12-16', 2, 1, 'Pantai Teluk Penyu', 37500, '2023-12-06'),
+(30, 'Sidky Ahmad Elman', 2222222222222222, '0878902189101', '2023-12-08', 1, 2, 'Benteng Pendem', 30000, '2023-12-06'),
+(31, 'Aditya Bima Indrasta', 3333333333333333, '085098272689', '2023-12-07', 3, 0, 'Museum Soesilo Soedarman', 15000, '2023-12-06'),
+(32, 'Nasywa Anggita Putri', 4444444444444444, '0876927291011', '2023-12-08', 2, 0, 'Pantai Teluk Penyu', 30000, '2023-12-06');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `daftarharga`
+-- Indeks untuk tabel `daftarharga`
 --
 ALTER TABLE `daftarharga`
   ADD PRIMARY KEY (`iddh`);
 
 --
--- Indexes for table `pengguna`
+-- Indeks untuk tabel `pengguna`
 --
 ALTER TABLE `pengguna`
   ADD PRIMARY KEY (`idp`);
 
 --
--- Indexes for table `transaksi`
+-- Indeks untuk tabel `transaksi`
 --
 ALTER TABLE `transaksi`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `daftarharga`
+-- AUTO_INCREMENT untuk tabel `daftarharga`
 --
 ALTER TABLE `daftarharga`
   MODIFY `iddh` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `pengguna`
+-- AUTO_INCREMENT untuk tabel `pengguna`
 --
 ALTER TABLE `pengguna`
   MODIFY `idp` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `transaksi`
+-- AUTO_INCREMENT untuk tabel `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

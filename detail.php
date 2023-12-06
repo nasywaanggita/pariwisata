@@ -8,7 +8,7 @@
             'gambar' => 'img/telukpenyu.jpg',
             'youtube' => 'https://www.youtube.com/embed/1VtWvfC8GzE',
             'deskripsi' => 'Teluk Penyu merupakan kawasan pantai di selatan Kabupaten Cilacap, utamanya sepanjang pesisir dari Kecamatan Cilacap Selatan yang lokasinya tidak 
-            langsung berhubungan dengan Samudera India atau Indonesia karena dibentengi oleh Pulau Nusakambangan'
+            langsung berhubungan dengan Samudera India atau Indonesia karena dibentengi oleh Pulau Nusakambangan.'
         ],
         [
             'id' => 2,
@@ -16,15 +16,14 @@
             'gambar' => 'img/bentengpendem.jpg',
             'youtube' => 'https://www.youtube.com/embed/OM9cVha1Ot8',
             'deskripsi' => 'Benteng Pendem Cilacap, adalah benteng peninggalan Belanda di pesisir pantai Teluk Penyu kabupaten Cilacap, Jawa Tengah yang dibangun pada tahun 1861 yang
-            berlokasi di Jl. Benteng, Sentolokawat, Cilacap, Kec. Cilacap Sel., Kabupaten Cilacap, Jawa Tengah 53211'
+            berlokasi di Jl. Benteng, Sentolokawat, Cilacap, Kec. Cilacap Sel., Kabupaten Cilacap, Jawa Tengah 53211.'
         ],
         [
             'id' => 3,
             'nama_wisata' => 'Museum Soesilo Soedarman',
             'gambar' => 'img/museumss.jpg',
             'youtube' => 'https://www.youtube.com/embed/81lcZB2P7r4',
-            'deskripsi' => 'Museum Soesilo Soedarman adalah bangunan bersejarah berbentuk museum yang menyimpan peninggalan-peninggalan Jendral TNI Soesilo Soedarman semasa mengabdikan diri, 
-            baik sebagai prajurit Tentara Nasional Indonesia Angkatan Darat'
+            'deskripsi' => 'Museum Soesilo Soedarman adalah bangunan bersejarah berbentuk museum yang menyimpan peninggalan-peninggalan Jendral TNI (Purn) Soesilo Soedarman semasa mengabdikan diri, baik sebagai prajurit Tentara Nasional Indonesia (TNI) Angkatan Darat maupun saat bertugas di berbagai kementrian semasa pemerintahan Soeharto. Museum ini terletak di Desa Gentasari, Kecamatan Kroya, Kabupaten Cilacap, Jawa Tengah, Indonesia.'
         ]
     ];
 

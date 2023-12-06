@@ -22,8 +22,7 @@ $data_wisata = [
         'nama_wisata' => 'Museum Soesilo Soedarman',
         'gambar' => 'img/museumss.jpg',
         'youtube' => 'https://www.youtube.com/embed/YpDIKr9KPYs',
-        'deskripsi' => 'Museum Soesilo Soedarman adalah bangunan bersejarah berbentuk museum yang menyimpan peninggalan-peninggalan Jendral TNI Soesilo Soedarman semasa mengabdikan diri, 
-        baik sebagai prajurit Tentara Nasional Indonesia Angkatan Darat'
+        'deskripsi' => 'Museum Soesilo Soedarman adalah bangunan bersejarah berbentuk museum yang menyimpan peninggalan-peninggalan Jendral TNI (Purn) Soesilo Soedarman semasa mengabdikan diri. Museum ini terletak di Desa Gentasari, Kecamatan Kroya, Kabupaten Cilacap, Jawa Tengah.'
     ]
 ];
 
