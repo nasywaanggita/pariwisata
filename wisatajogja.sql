@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Des 2023 pada 10.44
+-- Waktu pembuatan: 07 Des 2023 pada 05.55
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `wisataclp`
+-- Database: `wisatajogja`
 --
 
 -- --------------------------------------------------------
@@ -38,9 +38,9 @@ CREATE TABLE `daftarharga` (
 --
 
 INSERT INTO `daftarharga` (`iddh`, `nama`, `harga`) VALUES
-(1, 'Pantai Teluk Penyu', '15000'),
-(2, 'Benteng Pendem', '15000'),
-(3, 'Museum Soesilo Soedarman', '5000');
+(1, 'Malioboro', '15000'),
+(2, 'Taman Sari', '15000'),
+(3, 'Pantai Parangtritis', '20000');
 
 -- --------------------------------------------------------
 
@@ -65,7 +65,7 @@ CREATE TABLE `pengguna` (
 --
 
 INSERT INTO `pengguna` (`idp`, `nama_p`, `no_identitas`, `no_hp`, `idnama`, `tanggal`, `Jml_p`, `Jml_ank`, `total`) VALUES
-(1, 'Nasywa Anggita', '3301032345400002', '081543676993', '3', '2022-04-23', '3', '1', '');
+(1, 'Sidky Aditya Khairina Nasywa', '3301032345400002', '081543676993', '3', '2023-12-02', '3', '1', '');
 
 -- --------------------------------------------------------
 
@@ -91,10 +91,10 @@ CREATE TABLE `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id`, `nama`, `no_identitas`, `no_hp`, `tanggal`, `jml`, `jml_anak`, `nama_wisata`, `total_harga`, `tanggal_pesan`) VALUES
-(29, 'Khairina Dwi Aristyanti', 1111111111111111, '089999922718', '2023-12-16', 2, 1, 'Pantai Teluk Penyu', 37500, '2023-12-06'),
-(30, 'Sidky Ahmad Elman', 2222222222222222, '0878902189101', '2023-12-08', 1, 2, 'Benteng Pendem', 30000, '2023-12-06'),
-(31, 'Aditya Bima Indrasta', 3333333333333333, '085098272689', '2023-12-07', 3, 0, 'Museum Soesilo Soedarman', 15000, '2023-12-06'),
-(32, 'Nasywa Anggita Putri', 4444444444444444, '0876927291011', '2023-12-08', 2, 0, 'Pantai Teluk Penyu', 30000, '2023-12-06');
+(33, 'Nasywa Anggita Putri', 1111111111111111, '085098272689', '2023-12-09', 2, 0, 'Malioboro', 30000, '2023-12-07'),
+(34, 'Sidky Ahmad Elman', 2222222222222222, '089999272818', '2023-12-08', 4, 1, 'Taman Sari', 67500, '2023-12-07'),
+(35, 'Khairina Dwi Aristyanti', 3333333333333333, '089999922718', '2023-12-10', 2, 1, 'Pantai Parangtritis', 50000, '2023-12-07'),
+(36, 'Aditya Bima Indrasta', 4444444444444444, '085098272689', '2023-12-12', 1, 1, 'Malioboro', 22500, '2023-12-07');
 
 --
 -- Indexes for dumped tables
@@ -138,7 +138,7 @@ ALTER TABLE `pengguna`
 -- AUTO_INCREMENT untuk tabel `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

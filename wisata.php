@@ -3,26 +3,24 @@
 $data_wisata = [
     [
         'id' => 1,
-        'nama_wisata' => 'Pantai Teluk Penyu',
-        'gambar' => 'img/telukpenyu.jpg',
-        'youtube' => 'https://www.youtube.com/embed/Cv7KEeT_hcw',
-        'deskripsi' => 'Teluk Penyu merupakan kawasan pantai di selatan Kabupaten Cilacap, utamanya sepanjang pesisir dari Kecamatan Cilacap Selatan yang lokasinya tidak 
-        langsung berhubungan dengan Samudera India atau Indonesia karena dibentengi oleh Pulau Nusakambangan'
+        'nama_wisata' => 'Malioboro',
+        'gambar' => 'img/malioboro.jpg',
+        'youtube' => 'https://www.youtube.com/embed/BQTU1UP7GDg?si=68o5f_L1uuQKQ9Fa',
+        'deskripsi' => 'Jalan Malioboro (Jawa: ꦢꦭꦤ꧀​ꦩꦭꦶꦪꦧꦫ, translit. Dalan Maliabara) adalah salah satu kawasan jalan dari tiga jalan, dari Tugu Yogyakarta hingga ke persimpangan Titik 0 Kilometer. Terdiri atas Jalan Margo Utomo, Jalan Malioboro, dan Jalan Margo Mulyo.'
     ],
     [
         'id' => 2,
-        'nama_wisata' => 'Benteng Pendem',
-        'gambar' => 'img/bentengpendem.jpg',
-        'youtube' => 'https://www.youtube.com/embed/__1lToGKJk8',
-        'deskripsi' => 'Benteng Pendem Cilacap, adalah benteng peninggalan Belanda di pesisir pantai Teluk Penyu kabupaten Cilacap, Jawa Tengah yang dibangun pada tahun 1861 yang
-        berlokasi di Jl. Benteng, Sentolokawat, Cilacap, Kec. Cilacap Sel., Kabupaten Cilacap, Jawa Tengah 53211'
+        'nama_wisata' => 'Taman Sari',
+        'gambar' => 'img/tamansari.jpg',
+        'youtube' => 'https://www.youtube.com/embed/qY1eDaTxv0Y?si=FYUMHBzewui1rNEG',
+        'deskripsi' => 'Taman Sari Yogyakarta atau Taman Sari Keraton Yogyakarta (Jawa: ꦠꦩꦤ꧀ꦱꦫꦶ​ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, translit. Tamansari Ngayogyakarta) adalah situs bekas taman atau kebun istana Keraton Ngayogyakarta Hadiningrat, yang dapat dibandingkan dengan Taman Sari Surakarta.'
     ],
     [
         'id' => 3,
-        'nama_wisata' => 'Museum Soesilo Soedarman',
-        'gambar' => 'img/museumss.jpg',
-        'youtube' => 'https://www.youtube.com/embed/YpDIKr9KPYs',
-        'deskripsi' => 'Museum Soesilo Soedarman adalah bangunan bersejarah berbentuk museum yang menyimpan peninggalan-peninggalan Jendral TNI (Purn) Soesilo Soedarman semasa mengabdikan diri. Museum ini terletak di Desa Gentasari, Kecamatan Kroya, Kabupaten Cilacap, Jawa Tengah.'
+        'nama_wisata' => 'Pantai Parangtritis',
+        'gambar' => 'img/parangtritis.jpg',
+        'youtube' => 'https://www.youtube.com/embed/GAhnmiVbOA0?si=iCIlCojUOU2n095z',
+        'deskripsi' => 'Pantai Parangtritis (Jawa: ꦥꦱꦶꦱꦶꦂ ꦥꦫꦁꦠꦿꦶꦠꦶꦱ꧀, translit. Pasisir Parangtritis) adalah tempat wisata yang terletak di Kalurahan Parangtritis, Kapanéwon Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta. Pantai ini telah menjadi ikon pariwisata di Yogyakarta.'
     ]
 ];
 

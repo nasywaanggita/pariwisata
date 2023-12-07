@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Wisata Kota Cilacap</title>
+    <title>Pesona Jogja</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -10,12 +10,13 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <script src="assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark shadow mb-5">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Wisata Cilacap</a>
+            <a class="navbar-brand" href="index.php">Pesona Jogja</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,9 +67,9 @@
         <div class="container">
             <center>
                 <h1 style="font-family:Vijaya; font-size: 35pt"><b>Selamat Datang</h1>
-                <h2>Website Pariwisata Kota Cilacap</h2>
+                <h2>Website Pariwisata Yogyakarta</h2>
                 <br><br>
-                <img src="img/cilacap.png" height="250px" style="display: block; margin: auto;">
+                <img src="img/logojogja.png" height="300px" style="display: block; margin: auto;">
             </center>
         </div>
     </div>
@@ -82,8 +83,8 @@
         <div class="container">
             <div class="row pt-4 pb-3">
                 <div class="col-md-4">
-                    <h5>Wisata Cilacap</h5>
-                    <p class="mt-4">Salah satu kabupaten di Provinsi Jawa Tengah. Ibu kotanya adalah Kota Cilacap. Memiliki 3 destinasi pariwisata utama yaitu Pantai Teluk Penyu, Benteng pendem, dan museum Soesilo Soedarman.</p>
+                    <h5>Yogyakarta</h5>
+                    <p class="mt-4">Yogyakarta adalah kota di Indonesia yang dikenal dengan warisan budayanya yang kaya dan pemandangannya yang indah. Ada banyak tempat untuk dikunjungi di Yogyakarta, mulai dari situs sejarah hingga keajaiban alam.</p>
                 </div>
             </div>
         </div>

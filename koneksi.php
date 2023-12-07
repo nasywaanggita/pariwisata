@@ -1,3 +1,3 @@
 <?php
-$koneksi = mysqli_connect("localhost","root","","wisataclp") or die ("Database Tidak Terkoneksi") .mysqli_connect_error();
+$koneksi = mysqli_connect("localhost","root","","wisatajogja") or die ("Database Tidak Terkoneksi") .mysqli_connect_error();
 ?>
